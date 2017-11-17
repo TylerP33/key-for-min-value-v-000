@@ -10,8 +10,6 @@ def key_for_min_value(hash)
     elsif value < hash[min_key]
       min_key = key
     else
-      min_key
-    else
       next
    end
  end
